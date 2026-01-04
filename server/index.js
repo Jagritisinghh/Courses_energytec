@@ -5,7 +5,7 @@ const app=express();
 
 app.use(cors());
 app.use(cors({
-  origin: 'http://localhost:3001',
+  origin: 'https://courses-energytec-8.onrender.com/login',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
 }));
